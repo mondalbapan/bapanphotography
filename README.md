@@ -4,7 +4,7 @@ photography website
 ### 1. Make sure node.js version 22+ is installed.
 to Know that do:
 ```
-node --v
+node --version
 ```
 ### 2. Ensure your Git configuration is complete.
 ### 3. Create an empty directory.
