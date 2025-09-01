@@ -1,16 +1,31 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+* {
+  margin: 0;
   padding: 0;
-  text-align: center;
+  box-sizing: border-box;
 }
 
-
-
-
-
-.card {
-  padding: 2em;
+.App {
+  /* If you want to display multiple profile cards vertically */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  /* Or if you want them horizontally on larger screens */
+  /* 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  */
 }
 
-
+/* Remove default body styles if needed */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

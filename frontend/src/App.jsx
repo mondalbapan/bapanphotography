@@ -1,39 +1,48 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
-import Footer from './components/footer/Footer';
-import Front from './components/front/Front';
-
+import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProfileCard from './components/profilecard/ProfileCard';
+import Navbar from './components/Navbar';
+import HomePage from './components/HomePage';
+import ProfessionalFooter from './components/ProfessionalFooter';
+import LoadingPage from './components/LoadingPage';
+import Services from './components/Services';
+import ContactPage from './components/ContactPage';
+import Classes from './components/Classes';
 import './App.css'
 
 
 function App() {
- 
+  const [count, setCount] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
+  const handleLoadComplete = () => {
+    setIsLoading(false);
+  };
+
+  if (isLoading) {
+    return <LoadingPage onLoadComplete={handleLoadComplete} />;
+  }
+
+
 
   return (
-    <>
-     <Router>
-      <Navbar />
-      <div style={{ minHeight: '80vh' }}>
-        <Routes>
-          <Route path="/" element={<h1>Home</h1>} />
-          <Route path="/about" element={<h1>About</h1>} />
-          <Route path="/projects" element={<h1>Projects</h1>} />
-          <Route path="/contact" element={<h1>Contact</h1>} />
-        </Routes>
+    <Router>
+      <div className="m-0 p-0 overflow-x-hidden">
+        <Navbar />
+
+        <main >
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            {/* Add more routes like below as needed */}
+            <Route path="/About" element={<ProfileCard />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path="/Classes" element={<Classes />} />
+            <Route path="/Contact" element={<ContactPage />} />
+          </Routes>
+        </main>
+
+        <ProfessionalFooter />
       </div>
-      </Router>
-      <Front />
-      <h1>Bapan Mondal</h1>
-      <div className="card">
-        Bapan Mondal Photography Academy
-      </div>
-      <Footer />
-    
-      
-      
-     
-    </>
+    </Router>
   )
 }
 
