@@ -1,7 +1,18 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Clock, Send, MessageCircle,ClipboardCopy } from 'lucide-react';
 
+
 const ContactPage = () => {
+
+
+  const handleClick = (e) => {
+    const isMobile = /Mobi|Android|iPhone/i.test(navigator.userAgent);
+
+    if (!isMobile) {
+      e.preventDefault(); // stop the tel: link on desktop
+      alert("📱 Please open this on a mobile device to make a call.");
+    }
+  };
   return (
     <div className="min-h-screen bg-gray-950 py-12 px-4 sm:px-6 lg:px-8">
       <br />
@@ -224,9 +235,15 @@ const ContactPage = () => {
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Call Us</h3>
             <p className="text-gray-600 mb-4">Speak directly with our team</p>
-            <button className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors">
-              Call Now
-            </button>
+             <div>
+              <a
+                href="tel:+917872927077"
+                onClick={handleClick}
+                className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors inline-block"
+              >
+                Call Now
+              </a>
+            </div>
           </div>
 
           <div className="bg-white rounded-xl shadow-lg p-6 text-center">
@@ -235,9 +252,14 @@ const ContactPage = () => {
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Support</h3>
             <p className="text-gray-600 mb-4">Get help via email within 24 hours</p>
-            <button className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors">
+           <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=mondalbapan055@gmail.com&su=Subject&body=I%20want%20to%20contact%20you."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors inline-block"
+            >
               Send Email
-            </button>
+            </a>
           </div>
         </div>
       </div>
