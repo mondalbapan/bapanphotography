@@ -23,9 +23,9 @@ export default function TestimonialCard({ testimonial }) {
         </div>
         <div>
           <p className="text-sm text-parchment">{testimonial.name}</p>
-          <p className="font-mono text-[10px] uppercase tracking-widest2 text-parchment-dim">
+          {/* <p className="font-mono text-[10px] uppercase tracking-widest2 text-parchment-dim">
             {testimonial.role}
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

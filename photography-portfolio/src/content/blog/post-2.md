@@ -5,7 +5,7 @@ date: "2026-03-02"
 author: "Bapan Mondal"
 category: "Portraits"
 excerpt: "The best portrait sessions are mostly decided before anyone shows up. Here's what I actually ask in that first call."
-cover: "/images/blog/five-questions-before-a-portrait-session.jpg"
+cover: "/images/blog/bapan_mondal_prize_winnig_photo.jpg"
 link: "https://www.facebook.com/reel/4440416852744999"
 ---
 

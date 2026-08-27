@@ -7,36 +7,36 @@
     "rating": 5,
     "image": "/images/testimonials/priya-nair.jpg"
   },
+{
+  "id": "t2",
+  "name": "Barnali Murmu",
+  "role": "Creative Director, Fen & Co.",
+  "quote": "Sir r first photography class er batch er student ami.. social media te apnake onk din dhorei follow kortam.. Khub valo lagto apnar sekhanor techniques.. Age dslr e photo tultei partam na.. Apnar haat dhorei.. Hate khori bola jete pare..aj jetuku pari photography.. Sob e apnar thke learn kora.. Future eo apnar thke onk kichu sekha baki ache ekhono.. Amr pawa jesob photography award ache.. Prize ache photography te.. Sob e apnar jonno hoyeche.. 🙏 Sir bhison e down to earth manus.. Kono kichu bujhte na parle akdom hate dhore sikhiye den.. Thank you so much.. apnar moto akjon teacher life e pawar jonno.. 🙂",
+  "rating": 5,
+  "image": "/images/testimonials/daniel-osei.jpg"
+},
   {
-    "id": "t2",
-    "name": "Daniel Osei",
-    "role": "Creative Director, Fen & Co.",
-    "quote": "We hired Marlowe for an editorial campaign expecting polish. What we got was polish with a pulse — every frame felt lived-in rather than staged.",
-    "rating": 5,
-    "image": "/images/testimonials/daniel-osei.jpg"
-  },
-  {
-    "id": "t3",
-    "name": "Sofia Marchetti",
-    "role": "Portrait Client",
-    "quote": "I've never liked photos of myself until this session. She made the whole thing feel like a conversation, not a shoot.",
-    "rating": 5,
-    "image": "/images/testimonials/sofia-marchetti.jpg"
-  },
-  {
-    "id": "t4",
-    "name": "James Whitfield",
-    "role": "Student, Seeing in 35mm",
-    "quote": "Four sessions completely changed how I look at light. I came in with a camera I was scared of and left with a set of negatives I'm proud of.",
-    "rating": 5,
-    "image": "/images/testimonials/james-whitfield.jpg"
-  },
-  {
-    "id": "t5",
-    "name": "Renata Alves",
-    "role": "Groom's Mother",
-    "quote": "The gallery arrived faster than any photographer we've used before, and every single image was one we wanted to print.",
-    "rating": 5,
-    "image": "/images/testimonials/renata-alves.jpg"
-  }
+  "id": "t3",
+  "name": "Sahil Ahmed",
+  "role": "Student, Seeing in 35mm",
+  "quote": "I have been in this profession for four to five years. I used to work normally. But the indoor light concept was a bit lacking for me .For a long time I wanted to know when Dada would give classes, so I used to wait and see your updates on social media.Then I took admission from you when I saw the class announcement on social media Then after going to class we are guided nicely .But when I asked, they never returned it Also, he used to guide us even after the end of our class, and still does when we are called, support us like this and stay by our side all the time 😊",
+  "rating": 5,
+  "image": "/images/testimonials/james-whitfield.jpg"
+},
+ {
+  "id": "t4",
+  "name": "Jayanta Sarkar",
+  "role": "Creative Director, Fen & Co.",
+  "quote": "Dada tomar kach theke onk kichu sikhe , bises kore light er kaj r o sikhte chai 🤘",
+  "rating": 5,
+  "image": "/images/testimonials/daniel-osei.jpg"
+},
+{
+  "id": "t5",
+  "name": "Gopal Palik",
+  "role": "Student, Seeing in 35mm",
+  "quote": "❤️আমি বাপন দার কাছে ফটোগ্রাফির বেসিক To অ্যাডভান্স মাস্টার ক্লাস করেছি, এবং আমার EXPRIENCE অসাধারণ।✨ উনি একদম হাতে ধরে, Step by step শেখান এমনকি দাদা Tough বিষয় গুলো এত সহজে ভাবে বোঝান যে নতুনদের জন্যও শেখা অনেক সহজ হয়ে যায়।\n\nসবচেয়ে ভালো লেগেছে যেটা, 🥰সেটা হলো কোর্স শেষ হবার পরেও যেকোনো সময় আমি যখন Photography Related কোনো সমস্যায় পড়েছি, বাপন দা যতই ব্যস্ত থাকুক না কেন, ফোন করলে তিনি ঠিক সময় বের করে গাইড করেছেন। 😍 একজন শিক্ষক হিসেবে তোমার এই সাপোর্ট সত্যিই প্রশংসার যোগ্য।❤️\n\nআমি সমস্ত NEWCOMERS 😇যারা 📷📸 Photography Course করতে Interested তাদের কে একটাই কথা বলব Definitely তোমরা বাপন দার কাছ Course করতে পারো ❤️",
+  "rating": 5,
+  "image": "/images/testimonials/james-whitfield.jpg"
+}
 ]
